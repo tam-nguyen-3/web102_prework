@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: rgb(228,241,252);
 }
 
 #tentacles {
@@ -11,20 +11,28 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: rgb(146, 185, 237);
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    /* position: absolute;
+    width: 100%; */
 }
 
 .stats-container {
     display: flex;
+    /* align-items: center; */
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: #9abdf0;
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -72,4 +80,21 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    background-color: #9abdf0;
 }
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#searchBar {
+    display: flex;
+}
+
+input {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+  }
